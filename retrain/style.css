@@ -1,0 +1,19 @@
+.input{
+    width: 100%;
+    background-color: aliceblue;
+    color: aliceblue;
+
+   
+}
+.error-msg{
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .retrain{
+      padding:20px;
+      height: 80vh;
+      margin: 0;
+      background-color: #03224c;
+  }

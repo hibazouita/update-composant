@@ -1,0 +1,28 @@
+
+  .upload{
+    text-align: center;
+    margin-left: 70px;
+
+    margin-right: 70px;
+  }
+  h3{
+    margin-top: 10px;
+    margin: 30px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+
+  .input-sommaire{
+    width: 50%
+  }
+  .webviewer {
+    flex: 1;
+    height: 80vh;
+    margin: 8px;
+    -webkit-box-shadow: 1px 1px 10px #999;
+            box-shadow: 1px 1px 10px #999;
+  }

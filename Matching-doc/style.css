@@ -1,0 +1,57 @@
+
+  .App{
+    text-align: center;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+.btn-next{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #f55e30;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+     padding: 1em;
+    transition: background-color 0.4s;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.5);
+}
+.pdf-container{
+    
+    background-color: #e4e4e4;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100px;
+  }
+  
+  .pdf-center{
+      display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+
+    margin-right: 70px;
+
+  }
+  .webviewer {
+    flex: 1;
+    height: 100vh;
+    width: 80vh;
+    margin: 8px;
+    -webkit-box-shadow: 1px 1px 10px #999;
+            box-shadow: 1px 1px 10px #999;
+  }
